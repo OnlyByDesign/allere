@@ -1,0 +1,269 @@
+/*
+   Theme Name: Zerif Pro Allere Child
+   Theme URI: https://www.themeisle.com/ 
+   Description: Child theme of Zerif Pro for Allere
+   Author: Ben Yannella
+   URI: https://onlyby.design/ 
+   Template: zerif-pro
+   Version: 0.1 
+*/
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif !important;
+}
+
+.section-header h2 {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+/************************
+********NAVIGATION********
+************************/
+
+.navbar, .navbar-inverse .navbar-nav ul.sub-menu {
+    background: rgba(255,255,255,0.95) !important;
+}
+
+.navbar-brand > a > img {
+    max-width: 125px;
+}
+/****************
+**END NAVIGATION**
+****************/
+
+/************************
+********BIG TITLE********
+************************/
+
+.big-title-container {
+    width: 900px;
+}
+
+.header-content-wrap {
+    padding: 225px 0 200px;
+}
+
+img.big-title-img {
+    max-width: 250px;
+}
+
+h1.intro-text {
+    font-family: 'Open Sans', Helvetica, sans-serif !important;
+    text-transform:capitalize;
+    letter-spacing: 2px;
+}
+
+.big-title-container .buttons {
+    margin-top: 25px;
+}
+
+h1.intro-text .title-sub {
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 32px;
+    padding-top: 25px;
+}
+
+h1.intro-text p {
+    padding-top: 15px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 26px;
+    display: block;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.custom-button {
+    min-width:200px;
+    padding: 10px 35px 10px 35px;
+    text-transform: capitalize;
+}
+
+.big-title-container .green-btn {
+    border: 1px solid #e96656;
+}
+
+
+/****************
+**END BIG TITLE**
+****************/
+
+/************************
+********PACKAGES********
+************************/
+
+.packages {
+    padding-bottom:0px;
+}
+
+.packages .row {
+    padding-bottom:0px;
+}
+
+.focus-box .service-icon {
+    border:none;
+}
+
+.packages .focus-box h5 {
+    color:#fff;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.red-border-bottom::before {
+    background: #fff;
+}
+
+.packages .focus-box {
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 75px;
+}
+
+.packages .focus-box p {
+    text-align:left;
+    padding: 0px 10px;
+}
+
+.packages .row span:nth-child(1) {background-color: #00457a;}
+
+.packages .row span:nth-child(2) {background-color: #0071c8;}
+
+.packages .row span:nth-child(3) {background-color: #00335a;}
+
+.packages .row span:nth-child(4) {background-color: #0071c8;}
+
+/****************
+**END PACKAGES**
+****************/
+
+/************************
+********ABOUT US********
+************************/
+
+.about-us {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.about-us .big-intro {
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/****************
+**END ABOUT US**
+****************/
+
+/************************
+********SERVICE SEC********
+************************/
+
+.service-icon {
+    border: none !important;
+}
+
+/****************
+**END SERVICE**
+****************/
+
+/************************
+********BLURB SEC********
+************************/
+
+.feedback-box .client-image {
+    display:none;
+    visibility:hidden;
+}
+
+/****************
+**END BLURB SEC**
+****************/
+
+/************************
+********PORTFOLIO********
+************************/
+
+.works {
+    padding-bottom: 0px;
+    min-height:0px;
+}
+
+/****************
+**END PORTFOLIO**
+****************/
+
+/************************
+********TESTIMONIALS********
+************************/
+
+.testimonial .container {
+    background-image: url(https://alleregroup.com/wp-content/uploads/sites/2/2017/07/CES-Logo-r2-1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 600px;
+}
+
+@media screen and (max-width: 1028px) {
+.testimonial .container {
+    background-image:none;
+} 
+}
+
+@media screen and (min-width: 1280px) {
+.testimonial .feedback-box {
+    width: 45% !important;  
+}
+}
+
+.testimonial h1.widget-title {
+    margin-top: 0px;
+    text-align:center;
+    letter-spacing: 2px;
+    color: #333 !important;
+}
+
+.testimonial h1.widget-title::before {
+    background: none !important;
+}
+
+.testimonial .widget {
+    background: rgba(0,0,0,0) !important;
+}
+
+.testimonial .widget p {
+    color: #333 !important;
+}
+
+.testimonial .test-copy {
+    background: rgba(0,0,0,0) !important;
+}
+
+.testimonial .test-copy p {
+    color: #1e73be !important;
+    font-weight: 600;
+}
+
+/****************
+*END TESTIMONIALS*
+****************/
+
+/************************
+********TESTIMONIALS********
+************************/
+
+.focus .focus-box p {
+    text-align:left;
+}
+
+/****************
+*END TESTIMONIALS*
+****************/
